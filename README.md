@@ -16,7 +16,7 @@ Projeto da disciplina de Iot Aplicada, do curso de Engenharia da Computação da
 2) Abrir o CMD do ESP-IDF
 3) Copiar o caminho da pasta do projeto do seu computador, ex: cd "C:\esp-idf\examples\protocols\sockets\tcp_server"
 4) Depois inserr o comando "idf.py menuconfig". Irá abrir este menu: 
-
+![menu](https://user-images.githubusercontent.com/50503950/99743133-c787a400-2ab3-11eb-8adf-c69fd0ed0d47.png)
  
 Devem-se fazer estas alterações:
 4.1) Serial flasher config > Flash size (4 MB) > Salvar > ESC
@@ -25,6 +25,7 @@ Devem-se fazer estas alterações:
 4.4) Salvar tudo e ESC para sair
 5) Depois inserir no CMD do ESP_IDF o comando "idf.py flash monitor" para gravar o programa. (Em alguns casos se aparece “Conecting......connecting....” tem que pressionar o botão “boot” na placa). 
 6) Assim, se tudo ocorrer bem é possível ver no CMD as seguintes informações:
+![cmd](https://user-images.githubusercontent.com/50503950/99743126-c3f41d00-2ab3-11eb-9b62-e7d3b178de43.png)
  
 Para testar com o cliente:
 1) Abrir o RealTerm
@@ -32,7 +33,11 @@ Para testar com o cliente:
 Em "Port"- n°doIP:n°port ex: 192.168.0.13:3333
 Depois clicar em "open" para conectar
 3) Na aba "Send" digitar a mensagem desejada e clicar em Send ASCII
- 
+![cliente](https://user-images.githubusercontent.com/50503950/99743134-c8203a80-2ab3-11eb-8d82-7a27be48b4a8.png)
+
 4) Se o cliente enviar umas dessas mensagens: Temp, Umid ou Dist, ele receberá o retorno dos valores:
+![print](https://user-images.githubusercontent.com/50503950/99743621-d1f66d80-2ab4-11eb-88c5-fa421b9a3010.jpeg)
  
 ## Fotos do esquema:
+![esquema](https://user-images.githubusercontent.com/50503950/99743127-c5254a00-2ab3-11eb-874f-b0f7a677df4d.jpg)
+![esquema2](https://user-images.githubusercontent.com/50503950/99743129-c6567700-2ab3-11eb-9b6e-52cfb445d51f.jpg)

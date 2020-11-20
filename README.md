@@ -19,10 +19,10 @@ Projeto da disciplina de Iot Aplicada, do curso de Engenharia da Computação da
 ![menu](https://user-images.githubusercontent.com/50503950/99743133-c787a400-2ab3-11eb-8adf-c69fd0ed0d47.png)
  
 Devem-se fazer estas alterações:
-4.1) Serial flasher config > Flash size (4 MB) > Salvar > ESC
-4.2) Example Configuration > (3333) Port  > Salvar > ESC
-4.3) Example Connection Configuration > (MeuWifi) Wi-fi SSID - (minhasenha) WiFi Password e desmarcar o "Obtain IPv6 link local address", porque nós usamos o IPv4 > Salvar > ESC
-4.4) Salvar tudo e ESC para sair
+1) Serial flasher config > Flash size (4 MB) > Salvar > ESC
+2) Example Configuration > (3333) Port  > Salvar > ESC
+3) Example Connection Configuration > (MeuWifi) Wi-fi SSID - (minhasenha) WiFi Password e desmarcar o "Obtain IPv6 link local address", porque nós usamos o IPv4 > Salvar > ESC
+4) Salvar tudo e ESC para sair
 5) Depois inserir no CMD do ESP_IDF o comando "idf.py flash monitor" para gravar o programa. (Em alguns casos se aparece “Conecting......connecting....” tem que pressionar o botão “boot” na placa). 
 6) Assim, se tudo ocorrer bem é possível ver no CMD as seguintes informações:
 ![cmd](https://user-images.githubusercontent.com/50503950/99743126-c3f41d00-2ab3-11eb-9b62-e7d3b178de43.png)
